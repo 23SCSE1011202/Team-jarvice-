@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Healthcare Management System</h1>
+    <form id="patientForm">
+        <label for="name">Patient Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+        
+        <label for="condition">Medical Condition:</label>
+        <input type="text" id="condition" required>
+        
+        <button type="submit">Add Patient</button>
+    </form>
+
+    <h2>Patient List</h2>
+    <ul id="patientList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
